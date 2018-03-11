@@ -5,7 +5,8 @@ So I estimated my progesterone,testosterone,estrogen and used API to insert as i
 see what it looks like when it is inserted:
 https://i.imgur.com/MqDwAM0.png
 
-Data is from "Hormonal characteristics of the human menstrual cycle throughout reproductive life." J Clin Invest. 1975;55(4):699-706. doi:10.1172/JCI107979.
-Figure 3: "The mean and range of serum LH, FSH, E., and P in five women, age 40-41, are compared to the mean +2 SEM in 10 cycles in women aged 18-30."
-Testosterone from a variety of sources, estimated.
+Hormone level estimates are from [10.1172/JCI107979](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC301805/?page=3): "Serum gonadotropin and steroid patterns during the normal menstrual cycle." J Clin Invest. 1975 Apr; 55(4): 699–706.
+Specifically, Figure 3: "The mean and range of serum LH, FSH, E., and P in five women, age 40-41, are compared to the mean +2 SEM in 10 cycles in women aged 18-30."
+
+Except testosterone, which i roughly estimated from a number of online graphs.
 
