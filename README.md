@@ -1,6 +1,6 @@
-Playing with @ExistApp,❤️. 
+Playing with @ExistApp,❤️.
 But I want to correlate w my hormone cycle.  
-So I estimated my progesterone,testosterone,estrogen and used API to insert as if my instagram post,likes,comments stats.  Let's see what correlates!  :) 
+So I estimated my testosterone,estrogen,progesterone then used API to insert as if my Instagram post,likes,comments stats.
 
 see what it looks like when it is inserted:
 https://i.imgur.com/MqDwAM0.png
