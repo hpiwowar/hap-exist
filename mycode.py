@@ -1,8 +1,12 @@
 import os
 import datetime
 from dateutil import parser
-
 from exist import Exist
+
+### this is super ugly, pulled together one afternoon in a coffee shop.
+## not going to spend any time cleaning or documenting
+## but if it helps you, then here you go world!  :)
+
 
 exist = Exist(os.getenv("EXIST_CLIENT_ID"), os.getenv("EXIST_CLIENT_SECRET"), os.getenv("EXIST_ACCESS_TOKEN"))
 print (exist.user())
