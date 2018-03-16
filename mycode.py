@@ -21,23 +21,14 @@ exist.arquire_attributes([{"name":"instagram_posts", "active":True}])
 print [a.label for a in exist.owned_attributes()]
 [str(a) for a in exist.owned_attributes()]
 
-
 # Data is from "Hormonal characteristics of the human menstrual cycle throughout reproductive life." J Clin Invest. 1975;55(4):699-706. doi:10.1172/JCI107979
 # Figure 3: "The mean and range of serum LH, FSH, E., and P in five women, age 40-41, are compared to the mean +2 SEM in 10 cycles in women aged 18-30."
 # testosterone from a variety of sources, estimated
 # ovulation is right after the high day
 # assumes 27 day cycle
 
-start_dates_strings = [
-    "2017-11-23",
-    "2017-12-20",
-    "2018-01-17",
-    "2018-02-14"
-]
-start_dates = [parser.parse(x) for x in start_dates_strings]
-
 hormone_levels_by_day = [
-    {"estrogen": 40, "progesterone": 0, "testosterone": 0},  # day 0
+    {"estrogen": 40, "progesterone": 0, "testosterone": 0},  # day 0, first day of bleeding
     {"estrogen": 40, "progesterone": 0, "testosterone": 0},
     {"estrogen": 45, "progesterone": 0, "testosterone": 0},
     {"estrogen": 50, "progesterone": 0, "testosterone": 0},
@@ -69,6 +60,14 @@ hormone_levels_by_day = [
     {"estrogen": 60, "progesterone": 8, "testosterone": 0}  # offset 29
     ]
 
+period_start_date_strings = [
+    "2017-11-23",
+    "2017-12-20",
+    "2018-01-17",
+    "2018-02-14",
+    "2018-03-14"
+]
+start_dates = [parser.parse(x) for x in period_start_date_strings]
 
 def update_exist(my_day, levels):
     my_day_str = my_day.isoformat()[0:10]
