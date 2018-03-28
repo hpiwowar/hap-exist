@@ -29,7 +29,6 @@ print [a.label for a in exist.owned_attributes()]
 
 hormone_levels_by_day = [
     {"estrogen": 40, "progesterone": 0, "testosterone": 0},  # day 0, first day of bleeding
-    {"estrogen": 40, "progesterone": 0, "testosterone": 0},
     {"estrogen": 45, "progesterone": 0, "testosterone": 0},
     {"estrogen": 50, "progesterone": 0, "testosterone": 0},
     {"estrogen": 70, "progesterone": 0, "testosterone": 0},
