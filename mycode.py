@@ -69,7 +69,8 @@ period_start_date_strings = [
     "2018-03-14",
     "2018-04-11",
     "2018-05-09",
-    "2018-06-06"
+    "2018-06-06",
+    "2018-07-02"
 ]
 start_dates = [parser.parse(x) for x in period_start_date_strings]
 
